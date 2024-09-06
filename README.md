@@ -8,6 +8,30 @@ Cette application permet de gérer les employés, les tâches et leurs assignati
 
 ![Diagramme de Classe](assets/images/diagramme_class.png)
 
+Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
+
+1. **Node.js** : Version 14 ou supérieure.
+
+   - Vous pouvez télécharger Node.js depuis [nodejs.org](https://nodejs.org/).
+   - Vérifiez l'installation avec :
+     ```bash
+     node -v
+     ```
+
+2. **npm** (Node Package Manager) : Inclus avec Node.js.
+
+   - Vérifiez l'installation avec :
+     ```bash
+     npm -v
+     ```
+
+3. **Git** (optionnel, mais recommandé pour le versionnement).
+   - Vous pouvez télécharger Git depuis [git-scm.com](https://git-scm.com/).
+   - Vérifiez l'installation avec :
+     ```bash
+     git --version
+     ```
+
 ## Structure du Projet
 
 Le projet est divisé en plusieurs fichiers principaux :
@@ -24,10 +48,15 @@ Le projet est divisé en plusieurs fichiers principaux :
    git clone https://github.com/Fatoumacisse99/gestion-projet-express.git
    cd gestion-projet-express
    ```
-## installation des dependances 
+
+## installation des dependances
+
 ```bash
 npm install
 ```
+
 ## execution
+
 ```bash
 npm start
+```
